@@ -14,6 +14,14 @@ config/name="Storytime"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[aseprite_importers]
+
+aseprite_executable_path="/Users/jhonathan/Library/Application Support/Steam/steamapps/common/Aseprite/Aseprite.app/Contents/MacOS/aseprite"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/nklbdev.aseprite_importers/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="mobile"
